@@ -1,10 +1,12 @@
-## House Prices: Advanced Regression Techniques / House Prices: Advanced Regression Techniques
-Data science project developed for the Kaggle competition, focused on predicting housing prices in Ames, Iowa, using advanced regression techniques. / *Proyecto de ciencia de datos desarrollado para la competencia de Kaggle, enfocado en la predicción de precios de viviendas en Ames, Iowa, mediante técnicas de regresión avanzada.*
+## House Prices: Advanced Regression Techniques
+
+Data science project developed for the Kaggle competition, focused on predicting housing prices in Ames, Iowa, using advanced regression techniques.
 
 ## Project Roadmap / Roadmap del Proyecto
+
 ![Roadmap del proyecto](house_prices_roadmap_en_2.png)
 
-## Methodology / Metodología
+## Methodology
 
 **Phase 1 (Exploration):** Diagnostic of skewness in the target variable (applying log1p) and null data audit to define imputation strategies.
 
@@ -18,21 +20,7 @@ Data science project developed for the Kaggle competition, focused on predicting
 
 **Phase 5 (Advanced Modeling):** Implementation of a Stacking Regressor (Ensemble) that combines Ridge, XGBoost, and LightGBM to maximize predictive power.
 
-/
-
-*Fase 1 (Exploración): Diagnóstico de skewness en la variable objetivo (aplicando log1p) y auditoría de datos nulos para definir estrategias de imputación.*
-
-*Fase 2 (Preprocesamiento): Creación de un Diccionario de Encoding centralizado para garantizar consistencia entre las variables ordinales y nominales, asegurando la alineación exacta entre train y test.*
-
-*Fase 3 (Baseline): Establecimiento de un floor de rendimiento mediante Ridge Regression validado con K-Fold Cross-Validation.*
-
-*Fase 4 (Ingeniería de Características): Creación de variables de dominio (Total_SF, YearsSinceBuilt, YearsSinceRemod).*
-
-  *- Análisis crítico de multicolinealidad sobre el set final de features.*
-    
-*Fase 5 (Modelado Avanzado): Implementación de un Stacking Regressor (Ensemble) que combina Ridge, XGBoost y LightGBM para maximizar la capacidad predictiva.*
-
-## Results / Resultados
+## Results 
 
 **Local RMSE (K-Fold): 0.1113**
 
@@ -40,4 +28,38 @@ Data science project developed for the Kaggle competition, focused on predicting
 
 ## Licencia
 
-This project is under the MIT license. / *Este proyecto está bajo la licencia MIT.*
+This project is under the MIT license. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+## Precios de la vivienda: técnicas avanzadas de regresión
+
+Proyecto de ciencia de datos desarrollado para la competencia de Kaggle, enfocado en la predicción de precios de viviendas en Ames, Iowa, mediante técnicas de regresión avanzada.
+
+## Roadmap del Proyecto
+
+![Roadmap del proyecto](house_prices_roadmap_es_1.png)
+
+## Metodología
+
+**Fase 1 (Exploración):** Diagnóstico de skewness en la variable objetivo (aplicando log1p) y auditoría de datos nulos para definir estrategias de imputación.
+
+**Fase 2 (Preprocesamiento):** Creación de un Diccionario de Encoding centralizado para garantizar consistencia entre las variables ordinales y nominales, asegurando la alineación exacta entre train y test.
+
+**Fase 3 (Baseline):** Establecimiento de un floor de rendimiento mediante Ridge Regression validado con K-Fold Cross-Validation.
+
+**Fase 4 (Ingeniería de Características):** Creación de variables de dominio (Total_SF, YearsSinceBuilt, YearsSinceRemod).
+
+  - Análisis crítico de multicolinealidad sobre el set final de features.
+    
+**Fase 5 (Modelado Avanzado):** Implementación de un Stacking Regressor (Ensemble) que combina Ridge, XGBoost y LightGBM para maximizar la capacidad predictiva.
+
+## Resultados
+
+**Local RMSE (K-Fold): 0.1113**
+
+**Public Leaderboard Score: 0.12519**
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.

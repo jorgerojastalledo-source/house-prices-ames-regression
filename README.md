@@ -2,23 +2,21 @@
 
 Data science project developed for the Kaggle competition, focused on predicting housing prices in Ames, Iowa, using advanced regression techniques.
 
-# Project Roadmap / Roadmap del Proyecto
+## Project Roadmap / Roadmap del Proyecto
 
 ![Roadmap del proyecto](house_prices_roadmap_en_2.png)
 
 ## Methodology
 
-**Phase 1 (Exploration):** Diagnostic of skewness in the target variable (applying log1p) and null data audit to define imputation strategies.
+* **Phase 1 (Exploration):** Diagnostic of skewness in the target variable (applying log1p) and null data audit to define imputation strategies.
 
-**Phase 2 (Preprocessing):** Creation of a centralized Encoding Dictionary to ensure consistency between ordinal and nominal variables, ensuring exact alignment between train and test sets.
+* **Phase 2 (Preprocessing):** Creation of a centralized Encoding Dictionary to ensure consistency between ordinal and nominal variables, ensuring exact alignment between train and test sets.
 
-**Phase 3 (Baseline):** Establishment of a performance floor using Ridge Regression validated with K-Fold Cross-Validation.
+* **Phase 3 (Baseline):** Establishment of a performance floor using Ridge Regression validated with K-Fold Cross-Validation.
 
-**Phase 4 (Feature Engineering):** Creation of domain-specific variables (Total_SF, YearsSinceBuilt, YearsSinceRemod).
+* **Phase 4 (Feature Engineering):** Creation of domain-specific variables (Total_SF, YearsSinceBuilt, YearsSinceRemod) and critical analysis of **multicollinearity**.
 
-  - Critical analysis of multicollinearity on the final feature set.
-
-**Phase 5 (Advanced Modeling):** Implementation of a Stacking Regressor (Ensemble) that combines Ridge, XGBoost, and LightGBM to maximize predictive power.
+* ,**Phase 5 (Advanced Modeling):** Implementation of a Stacking Regressor (Ensemble) combining Ridge, XGBoost, and LightGBM.
 
 ## Results 
 
@@ -26,7 +24,7 @@ Data science project developed for the Kaggle competition, focused on predicting
 
 **Public Leaderboard Score: 0.12519**
 
-## Licencia
+## License
 
 This project is under the MIT license. 
 

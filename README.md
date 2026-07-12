@@ -2,7 +2,7 @@
 Proyecto de ciencia de datos desarrollado para la competencia de Kaggle, enfocado en la predicción de precios de viviendas en Ames, Iowa, mediante técnicas de regresión avanzada.
 
 ## Roadmap del Proyecto
-![Roadmap del proyecto](house_prices_roadmap.png)
+![Roadmap del proyecto](house_prices_roadmap_en_2.png)
 
 ## Metodología
 **Fase 1 (Exploración):** Diagnóstico de skewness en la variable objetivo (aplicando log1p) y auditoría de datos nulos para definir estrategias de imputación.

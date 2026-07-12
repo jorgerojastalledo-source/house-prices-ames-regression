@@ -36,7 +36,7 @@ Phase 5 (Advanced Modeling): Implementation of a Stacking Regressor (Ensemble) t
 
 ** Local RMSE (K-Fold)** / *RMSE Local (K-Fold):* 0.1113
 
-** Public Leaderboard Score** / *Public Leaderboard Score:* 0.12519
+** Public Leaderboard Score**: 0.12519
 
 ## Licencia
 

@@ -34,9 +34,9 @@ Data science project developed for the Kaggle competition, focused on predicting
 
 ## Results / Resultados
 
-** Local RMSE (K-Fold)** / *RMSE Local (K-Fold):* 0.1113
+**Local RMSE (K-Fold): 0.1113**
 
-** Public Leaderboard Score**: 0.12519
+**Public Leaderboard Score: 0.12519**
 
 ## Licencia
 

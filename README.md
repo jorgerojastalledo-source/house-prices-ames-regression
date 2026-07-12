@@ -1,7 +1,7 @@
 ## House Prices: Advanced Regression Techniques / House Prices: Advanced Regression Techniques
 Data science project developed for the Kaggle competition, focused on predicting housing prices in Ames, Iowa, using advanced regression techniques. / *Proyecto de ciencia de datos desarrollado para la competencia de Kaggle, enfocado en la predicción de precios de viviendas en Ames, Iowa, mediante técnicas de regresión avanzada.*
 
-## Roadmap del Proyecto
+## Project Roadmap / Roadmap del Proyecto
 ![Roadmap del proyecto](house_prices_roadmap_en_2.png)
 
 ## Metodología

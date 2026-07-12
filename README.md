@@ -12,7 +12,7 @@ Data science project developed for the Kaggle competition, focused on predicting
 
 **Phase 3 (Baseline):** Establishment of a performance floor using Ridge Regression validated with K-Fold Cross-Validation.
 
-*Phase 4 (Feature Engineering):** Creation of domain-specific variables (Total_SF, YearsSinceBuilt, YearsSinceRemod).
+**Phase 4 (Feature Engineering):** Creation of domain-specific variables (Total_SF, YearsSinceBuilt, YearsSinceRemod).
 
   - Critical analysis of multicollinearity on the final feature set.
 

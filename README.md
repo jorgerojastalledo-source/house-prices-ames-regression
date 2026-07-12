@@ -2,6 +2,15 @@
 
 Data science project developed for the Kaggle competition, focused on predicting housing prices in Ames, Iowa, using advanced regression techniques.
 
+## Tech Stack
+This project leverages the following stack to ensure robust data processing and high-performance modeling:
+
+* **Language:** Python 3.14
+* **Core Data Manipulation:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
+* **Modeling & ML:** Scikit-Learn (Ridge, Stacking), XGBoost, LightGBM
+* **Environment:** Kaggle Kernels (Jupyter Notebooks)
+
 ## Project Roadmap / Roadmap del Proyecto
 
 ![Roadmap del proyecto](house_prices_roadmap_en_2.png)

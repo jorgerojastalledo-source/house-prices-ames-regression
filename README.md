@@ -6,17 +6,17 @@ Data science project developed for the Kaggle competition, focused on predicting
 
 ## Methodology / Metodología
 
-Phase 1 (Exploration): Diagnostic of skewness in the target variable (applying log1p) and null data audit to define imputation strategies.
+**Phase 1 (Exploration):** Diagnostic of skewness in the target variable (applying log1p) and null data audit to define imputation strategies.
 
-Phase 2 (Preprocessing): Creation of a centralized Encoding Dictionary to ensure consistency between ordinal and nominal variables, ensuring exact alignment between train and test sets.
+**Phase 2 (Preprocessing):** Creation of a centralized Encoding Dictionary to ensure consistency between ordinal and nominal variables, ensuring exact alignment between train and test sets.
 
-Phase 3 (Baseline): Establishment of a performance floor using Ridge Regression validated with K-Fold Cross-Validation.
+**Phase 3 (Baseline):** Establishment of a performance floor using Ridge Regression validated with K-Fold Cross-Validation.
 
-Phase 4 (Feature Engineering): Creation of domain-specific variables (Total_SF, YearsSinceBuilt, YearsSinceRemod).
+*Phase 4 (Feature Engineering):** Creation of domain-specific variables (Total_SF, YearsSinceBuilt, YearsSinceRemod).
 
   - Critical analysis of multicollinearity on the final feature set.
 
-Phase 5 (Advanced Modeling): Implementation of a Stacking Regressor (Ensemble) that combines Ridge, XGBoost, and LightGBM to maximize predictive power.
+**Phase 5 (Advanced Modeling):** Implementation of a Stacking Regressor (Ensemble) that combines Ridge, XGBoost, and LightGBM to maximize predictive power.
 
 /
 
